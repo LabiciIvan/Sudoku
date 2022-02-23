@@ -39,7 +39,6 @@ function start() {
     status.innerHTML = 'keep playing'
   }
 }
-//line 27 to line 53 give functionality  to insert,cancel,restart, and select square
 function activateKey() { // numbers,cancel,restart keys to work.
   document.querySelectorAll('.key').forEach(key => (key.addEventListener('click', insert)));
   document.querySelectorAll('.erase').forEach(erase => (erase.addEventListener('click', clean)));
